@@ -1,7 +1,8 @@
 install.packages("usethis")
 library(usethis) 
 edit_git_config()
-use_git_()
+use_git()
+
 
 setwd("C:/Users/pavlo/OneDrive/Documentos/R/respaldo R/R basico UC/", "Hola")
 getwd()

@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:Europe/London
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/London
+X-LIC-LOCATION:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210119T161916Z
+DTSTART;TZID=Europe/London:20210121T140000
+DTEND;TZID=Europe/London:20210121T153000
+SUMMARY:Department of Methodology Seminar Series - Dr Matthew Bui
+UID:20210119T161916Z-87185594870@fe80:0:0:0:e2:8eff:fe2d:d6f8ens5
+TZID:Europe/London
+DESCRIPTION:Dave Poole le está invitando a una reunión de Zoom programada
+ .\n\nUnirse a la reunión Zoom\nhttps://lse.zoom.us/w/87185594870?tk=VUQ7
+ 9Eq9v5YWRvLLk236dYHAFjKYb3dnyuor4tSgDQI.DQIAAAAUTKqZ9hZ1ckd4dzR3MFRZZWJT
+ U0hsTzhTVE1nAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\nID de reunión: 871 8559 4870
+ \nMóvil con un toque\n+441314601196\,\,87185594870# Reino Unido\n+442030
+ 512874\,\,87185594870# Reino Unido\n\nMarcar según su ubicación\n       
+  +44 131 460 1196 Reino Unido\n        +44 203 051 2874 Reino Unido\n   
+      +44 203 481 5237 Reino Unido\n        +44 203 481 5240 Reino Unido\
+ n        +44 203 901 7895 Reino Unido\n        +1 646 558 8656 Estados U
+ nidos de América (New York)\n        +1 669 900 6833 Estados Unidos de A
+ mérica (San Jose)\n        +1 253 215 8782 Estados Unidos de América (Ta
+ coma)\n        +1 301 715 8592 Estados Unidos de América (Washington D.C
+ )\n        +1 312 626 6799 Estados Unidos de América (Chicago)\n        
+ +1 346 248 7799 Estados Unidos de América (Houston)\nID de reunión: 871 
+ 8559 4870\nEncuentre su número local: https://lse.zoom.us/u/k9bI5IU2V\n\
+ nUnirse mediante SIP\n87185594870@zoomcrc.com\n\nUnirse mediante H.323\n
+ 162.255.37.11 (EE. UU. oeste)\n162.255.36.11 (EE. UU. este)\n115.114.131
+ .7 (Mumbay\n India)\n115.114.115.7 (Hyderabad\n India)\n213.19.144.110 (
+ Ámsterdam Países Bajos)\n213.244.140.110 (Alemania)\n103.122.166.55 (Aus
+ tralia)\n209.9.211.110 (RAE de Hong Kong)\n64.211.144.160 (Brasil)\n69.1
+ 74.57.160 (Canadá)\n207.226.132.110 (Japón)\nID de reunión: 871 8559 487
+ 0\n\nUnirse mediante Skype Empresarial\nhttps://lse.zoom.us/skype/871855
+ 94870\n
+LOCATION:https://lse.zoom.us/w/87185594870?tk=VUQ79Eq9v5YWRvLLk236dYHAFjK
+ Yb3dnyuor4tSgDQI.DQIAAAAUTKqZ9hZ1ckd4dzR3MFRZZWJTU0hsTzhTVE1nAAAAAAAAAAA
+ AAAAAAAAAAAAAAAAA
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

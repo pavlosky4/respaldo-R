@@ -1,0 +1,13 @@
+library(readxl)
+Encuesta <- read_excel("Encuesta.xlsx")
+View(Encuesta)
+head(Encuesta)
+tail(Encuesta)
+names(Encuesta)
+dim(Encuesta)
+length(Encuesta)
+srt(Encuesta)
+class(Encuesta)
+
+df <- data.frame("Hombre")
+View(df)

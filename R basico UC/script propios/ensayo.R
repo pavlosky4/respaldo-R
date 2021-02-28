@@ -1,0 +1,11 @@
+poleras <- c(254,203,182,50)
+meses <- c("Ene", "Feb", "Mar", "Abr")
+min(poleras)
+plot(poleras)
+barplot(poleras,names.arg = meses,col="orange")
+write.csv(cbind(meses, poleras),"poleras.csv")
+read.csv("poleras.csv")
+
+write.csv(cbind(notas,alumnos),"notas.csv")
+read.csv("notas.csv")
+install.packages("dplyr")
